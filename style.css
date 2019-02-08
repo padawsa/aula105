@@ -13,10 +13,11 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: cursive;
+    font-family: 'Henny Penny', cursive;
+    color: snow
 }
 header img{
-    padding-top: 20px;
+    padding-top: 30px;
     max-width: 100%;
     height: auto; 
 }
