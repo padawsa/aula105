@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+#main{
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "section section aside aside" "footer footer footer footer";
+    grid-template-rows: 150px 50px 700px 100px;
+}
+header{
+    grid-area: header;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+header img{
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto; 
+}
+nav{
+    grid-area: nav;
+    background-color: lime;
+}
+section{
+    grid-area: section;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: aside;
+    background-color: lightslategray;
+}
+footer{
+    grid-area: footer;
+    background-color: deeppink;
+}
